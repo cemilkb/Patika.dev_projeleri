@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(#F9DBBB 40%,#FF0303  );
+    background-repeat: no-repeat;
+    height: 715px;
+}
+
+
+.bg {
+    background-image: url(/css_odev1/img/img.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.yan {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.yan a {
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: large;
+}
+
+h1 {
+    text-align: center;
+    color: #F9DBBB;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: large;
+}
+
+p {
+    text-align: center;
+    color: #2E3840;
+    font-size: large;
+}
+
+.home_list{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.home_list li {
+   padding-right: 30px;
+   color: #FF0303;
+   font-size: large;
+}
+
+.ahome {
+    text-align: center;
+}
+
+.ana_sayfa {
+    text-align: center;
+}
+
+.end {
+    position: absolute;
+    bottom: 0%;
+    right: 42%;
+}
+
+.poz {
+    display: flex;
+    justify-content: center;
+}
+
+.poz td {
+    padding-left: 5px;
+}
+table,td,th {
+    border: 2px solid #FF0303;
+}
